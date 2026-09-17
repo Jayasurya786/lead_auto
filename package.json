@@ -4,9 +4,8 @@
   "description": "LeadFlow - Production-Ready MERN Lead Automation & CRM System",
   "private": true,
   "scripts": {
-    "postinstall": "npm run install:all --prefix leadflow",
-    "build": "npm run build --prefix leadflow",
-    "start": "npm start --prefix leadflow"
+    "build": "npm --prefix leadflow/server install && npm --prefix leadflow/client install && npm --prefix leadflow/client run build",
+    "start": "node leadflow/server/server.js"
   },
   "engines": {
     "node": ">=18.0.0"
