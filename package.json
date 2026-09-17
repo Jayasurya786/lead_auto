@@ -1,0 +1,17 @@
+{
+  "name": "lead-auto",
+  "version": "1.0.0",
+  "description": "LeadFlow - Production-Ready MERN Lead Automation & CRM System",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm run install:all --prefix leadflow",
+    "build": "npm run build --prefix leadflow",
+    "start": "npm start --prefix leadflow"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mern", "lead-generation", "crm", "gmail-api", "xlsx"],
+  "author": "Jayasurya786",
+  "license": "MIT"
+}
