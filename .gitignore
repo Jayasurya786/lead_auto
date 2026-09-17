@@ -3,12 +3,10 @@ node_modules/
 **/node_modules/
 
 # Environment Variables & Secrets (CRITICAL - DO NOT COMMIT)
-.env
-*.env
-**/.env
-**/*.env
-!.env.example
-!**/.env.example
+.env*
+*.env*
+**/.env*
+**/*.env*
 
 # Production builds
 dist/
@@ -43,3 +41,4 @@ scratch/
 **/scratch/
 .system_generated/
 **/.system_generated/
+
